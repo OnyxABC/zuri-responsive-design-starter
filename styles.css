@@ -7,6 +7,10 @@
     font-family: 'Rubik', sans-serif;
 }
 
+body {
+    color: red;
+}
+
 div.nav-bar {
     display: flex;
     justify-content: space-between;
