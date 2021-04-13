@@ -21,7 +21,7 @@ div.logo {
     color: #bcc3c7;
 }
 
-ul.nav-links {
+ul#nav-links {
     display: flex;
     margin: 0;
     padding: 0;
@@ -55,7 +55,7 @@ ul li a:hover {
         padding-left: 15px;
     }
     
-    ul.nav-links {
+    ul#nav-links {
         flex-direction: column;
     }
     
@@ -72,6 +72,26 @@ ul li a:hover {
     ul li a:hover {
         padding: 0.1rem;
     }
+}
+
+/* Dropdown Menu*/
+@media screen and (max-width: 768px) {
+    .nav-bar {
+        overflow: hidden;
+        position: relative;
+    }
+    
+    .nav-bar .nav-links {
+        display: none;
+    }
+    
+    .nav-bar a.icon {
+        display: block;
+        position: absolute;
+        right: 15px;
+        top: 10px;
+    }
+    
 }
 
 /*Hero-Section*/
